@@ -1,0 +1,5 @@
+---
+- name: enable QEMU Guest Agent
+  service:
+    name: qemu-guest-agent
+    enabled: true
